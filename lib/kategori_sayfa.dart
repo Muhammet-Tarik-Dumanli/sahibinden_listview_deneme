@@ -15,8 +15,8 @@ class _KategoriSayfaState extends State<KategoriSayfa> {
 
     var k1 = Kategoriler(kategoriId: 1, kategoriAdi: "Emlak", kategoriResmi: "emlak.jpeg", kategoriAltBaslik: "Konut, İş Yeri, Arsa, Konut Projeleri, Bina");
     var k2 = Kategoriler(kategoriId: 1, kategoriAdi: "Vasıta", kategoriResmi: "vasita.jpeg", kategoriAltBaslik: "Otomobil, Arazi, SUV & Pickup, Motosiklet");
-    var k3 = Kategoriler(kategoriId: 1, kategoriAdi: "Yedek Parça", kategoriResmi: "parca.jpeg", kategoriAltBaslik: "Bilgisayar, Cep Telefonu, Fotoğraf Makinesi");
-    var k4 = Kategoriler(kategoriId: 1, kategoriAdi: "İkinci El ve Sıfır Alışveriş", kategoriResmi: "ikinciEl.jpeg", kategoriAltBaslik: "Konut, İş Yeri, Arsa");
+    var k3 = Kategoriler(kategoriId: 1, kategoriAdi: "Yedek Parça", kategoriResmi: "parca.jpeg", kategoriAltBaslik: "Otomotiv Ekipmanları, Motosiklet Ekipmanları");
+    var k4 = Kategoriler(kategoriId: 1, kategoriAdi: "İkinci El ve Sıfır Alışveriş", kategoriResmi: "ikinciEl.jpeg", kategoriAltBaslik: "Bilgisayar, Cep Telefonu, Fotoğraf Makinesi");
     var k5 = Kategoriler(kategoriId: 1, kategoriAdi: "İş Makineleri & Sanayi", kategoriResmi: "makine.jpeg", kategoriAltBaslik: "İş Makineleri, Tarım Makineleri, Sanayi");
     var k6 = Kategoriler(kategoriId: 1, kategoriAdi: "Ustalar ve Hizmetler", kategoriResmi: "usta.jpeg", kategoriAltBaslik: "Ev Tadilat & Dekorasyon, Nakliye, Araç Servis");
     var k7 = Kategoriler(kategoriId: 1, kategoriAdi: "Özel Ders Verenler", kategoriResmi: "ders.jpeg", kategoriAltBaslik: "Lise & Üniversite, İlkokul & Oortaokul");
@@ -41,7 +41,7 @@ class _KategoriSayfaState extends State<KategoriSayfa> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("sahibinden.com"), backgroundColor: Colors.indigoAccent,
+      appBar: AppBar(title: const Text("sahibinden.com"), backgroundColor: Color(0xFF035efc),
         leading: IconButton(onPressed: (){
         }, icon: const Icon(Icons.dehaze)),
         actions: const [
